@@ -5,12 +5,24 @@
 $mycolor:grey;
 $bluecolor:#217BF4;
 $bgcolor:#c9ddf7;
+@mixin sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap:150px;
+    margin-top: 50px;
+}
+@mixin texts{
+     display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
- 
     .mid{
         display: flex;
         gap:20px;
@@ -26,16 +38,11 @@ $bgcolor:#c9ddf7;
     }
 }
 .section1{
-  display: flex;
-  margin-top: 20px; 
-  gap:150px;
-  justify-content: center;
-  align-items: center; 
+  @include sections;
   background:linear-gradient(to bottom right,white,#D4E7FE);
   .left{
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+    @include texts;
+    margin-left: 100px;
     .netw{
         color:$bluecolor;
         padding:10px 10px;
@@ -46,8 +53,9 @@ $bgcolor:#c9ddf7;
     p{
         color:$mycolor;
     }
-    
-
+    h1{
+        font-size: 56px;
+    }
         button{
            padding:15px;
            border-radius: 10px;
@@ -56,14 +64,36 @@ $bgcolor:#c9ddf7;
             background-color: $bluecolor;
             color:white;
             border: 2px solid $bluecolor;
-
             font-weight: 600;
         }
     .btn2{
         color:$bluecolor;
         border: 2px solid $bluecolor;
         font-weight: 600;
-
     }
   }
+}
+.section2{
+    @include sections();
+    p{
+        color: $mycolor;
+    }
+    .groups{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .left2{
+       @include texts;
+    }
+    .right2{
+        position: relative;
+        display: flex;
+        gap:15px;
+        .fl{
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+        }
+    }
 }
