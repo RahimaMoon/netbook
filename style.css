@@ -21,4 +21,43 @@
   border-radius: 10px;
   border: none;
   color: grey;
+}
+
+.section1 {
+  display: flex;
+  margin-top: 20px;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, white, #D4E7FE);
+}
+.section1 .left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.section1 .left .netw {
+  color: #217BF4;
+  padding: 10px 10px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #c9ddf7;
+}
+.section1 .left p {
+  color: grey;
+}
+.section1 .left button {
+  padding: 15px;
+  border-radius: 10px;
+}
+.section1 .left .btn1 {
+  background-color: #217BF4;
+  color: white;
+  border: 2px solid #217BF4;
+  font-weight: 600;
+}
+.section1 .left .btn2 {
+  color: #217BF4;
+  border: 2px solid #217BF4;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

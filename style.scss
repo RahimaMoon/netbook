@@ -3,11 +3,14 @@
     font-family: sans-serif;
 }
 $mycolor:grey;
+$bluecolor:#217BF4;
+$bgcolor:#c9ddf7;
 .header{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+ 
     .mid{
         display: flex;
         gap:20px;
@@ -21,4 +24,46 @@ $mycolor:grey;
         border: none;
          color:$mycolor;
     }
+}
+.section1{
+  display: flex;
+  margin-top: 20px; 
+  gap:150px;
+  justify-content: center;
+  align-items: center; 
+  background:linear-gradient(to bottom right,white,#D4E7FE);
+  .left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .netw{
+        color:$bluecolor;
+        padding:10px 10px;
+        width:30%;
+        border-radius: 10px;
+        background-color: $bgcolor;
+    }
+    p{
+        color:$mycolor;
+    }
+    
+
+        button{
+           padding:15px;
+           border-radius: 10px;
+        }
+        .btn1{
+            background-color: $bluecolor;
+            color:white;
+            border: 2px solid $bluecolor;
+
+            font-weight: 600;
+        }
+    .btn2{
+        color:$bluecolor;
+        border: 2px solid $bluecolor;
+        font-weight: 600;
+
+    }
+  }
 }
