@@ -27,9 +27,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   gap: 150px;
-  margin-top: 50px;
+  margin-top: 20px;
   background: linear-gradient(to bottom right, white, #D4E7FE);
 }
 .section1 .left {
@@ -71,9 +70,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   gap: 150px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .section2 p {
   color: grey;
@@ -97,4 +95,95 @@
   display: flex;
   flex-direction: column;
   row-gap: 15px;
+}
+
+.row {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 20px;
+}
+.row .card, .row .card1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgb(205, 204, 204);
+  border: 1px solid rgb(183, 180, 180);
+}
+.row .card p, .row .card1 p {
+  color: grey;
+}
+.row .card h4, .row .card1 h4 {
+  color: #217BF4;
+}
+.row .card1 {
+  box-shadow: none;
+  border: none;
+}
+.row .card1 h3 {
+  color: #217BF4;
+}
+.row .card1 .btn {
+  background-color: #217BF4;
+  color: white;
+  border: 2px solid #217BF4;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #edf4fc;
+  padding: 20px;
+}
+.section3 .tx {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .tx h4 {
+  color: #217BF4;
+}
+.section3 .tx p {
+  color: grey;
+  text-align: center;
+}
+.section3 .main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.section3 .main .row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 20px;
+  gap: 40px;
+  margin-top: 20px;
+}
+.section3 .main .row3 .card3 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.section3 .main .row3 .card3 .inf {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.section3 .main .row3 .card3 .inf p {
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
