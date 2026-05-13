@@ -270,3 +270,45 @@ margin-top: 20px;
         }
     }
 }
+.last{
+    display: flex;
+    gap:30px;
+    background-color: #2B2B39;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+    .col{
+        display: flex;
+        flex-direction: column;
+        row-gap: 17px;
+        h4{
+            color:white;
+        }
+        p{
+            color:$mycolor;
+        }
+        input{
+            padding:10px;
+            background-color: transparent;
+            border: 1px solid grey;
+            border-radius: 10px ;
+        }
+        button{
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #20202D;
+    p{
+        color: white;
+    }
+}
