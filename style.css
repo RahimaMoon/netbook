@@ -270,4 +270,28 @@
   flex-direction: column;
   row-gap: 20px;
   width: 60%;
+}
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin-top: 50px;
+}
+.section6 .tx {
+  margin: auto;
+}
+.section6 .tx p {
+  color: #217BF4;
+}
+.section6 .row6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.section6 .row6 .card6 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }/*# sourceMappingURL=style.css.map */
