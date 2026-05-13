@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+$mycolor:grey;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    .mid{
+        display: flex;
+        gap:20px;
+    }
+    .pp{
+        color:$mycolor;
+    }
+    button{
+        padding:15px;
+        border-radius: 10px;
+        border: none;
+         color:$mycolor;
+    }
+}

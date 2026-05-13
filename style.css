@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.header .mid {
+  display: flex;
+  gap: 20px;
+}
+.header .pp {
+  color: grey;
+}
+.header button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  color: grey;
+}/*# sourceMappingURL=style.css.map */
